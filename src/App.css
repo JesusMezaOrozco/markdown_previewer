@@ -1,4 +1,46 @@
-html {
-	background-color: #181a1f;
+.global-container {
+	background-color: #282c34;
 	color: white;
+	height: 100vh;
+}
+
+.previewer-container {
+	height: 100%;
+}
+
+.editor-container {
+	height: 100%;
+}
+
+.separator {
+	background-color: #181a1f;
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.action-button {
+	width: 100px;
+	color: white;
+	background-color: transparent;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+
+.doc-button {
+	color: white;
+	background-color: transparent;
+	border-radius: 60%;
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+}
+.doc-button:hover {
+	cursor: pointer;
+}
+
+.custom-tooltip {
+	--bs-tooltip-bg: #282c34;
 }
